@@ -39,7 +39,7 @@ public class RetirementCalculator {
 				
 				exceptionChecker = 0;
 			} catch (Exception e) {
-				System.out.println("Sie haben eine Falscheingabe getätigt! Bitte wiederholen Sie die Eingabe.");
+				System.out.println("Something went wrong. Program is restarting.\n");
 			}
 		} while(exceptionChecker == 1);
 	}
